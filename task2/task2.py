@@ -15,7 +15,6 @@ def getData(data):
 def task2():
     getCirle = getData(sys.argv[1])
     getPoints = getData(sys.argv[2])
-    print(getCirle, getPoints)
     radiusSquared = getCirle[1][0] * getCirle[1][0]
     result = ''
     for point in getPoints:
