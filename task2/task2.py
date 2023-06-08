@@ -26,6 +26,6 @@ def task2():
         if equation > radiusSquared:
             result = result + '2\n'
         
-    print(result)
+    print(result[:-1])
 
 task2()
